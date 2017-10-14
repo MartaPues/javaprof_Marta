@@ -22,6 +22,7 @@ public class SaludoAumento extends HttpServlet {
 		response.setContentType("text/html");
 		PrintWriter out=response.getWriter();
 		out.println("<html><body><center>");
+		out.println("COMMIT 2");
 		for(int i=6;i>=1;i--) {
 			out.println("<h"+i+">Bienvenido a mi servlet</h"+i+">");
 		}
